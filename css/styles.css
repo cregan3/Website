@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.dropbtn {
+  color: black;
+  text-decoration: none;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #135a90; color: white; font-weight: bold}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #135a90; color: white;}
+
+.bigimage{
+	width: 70%;
+	height: auto;
+	display: block;
+	margin: auto;
+	max-width: 850px;
+}
+
+.smallimage{
+	width: auto;
+	height: 90px;
+	max-width: 200px;
+	display: inline-block;
+	
+}
+
+
+.socialbar{
+	margin: 0px,0px,0px,0px;
+	display: flex;	
+}
+.socialimage{
+	width: 20px; 
+	height: 20px; 
+	margin-bottom: 0px; 
+	margin-right: 10px; 
+	display: inline-block;
+}
+ul{
+	list-style-type:none;
+}
+h5{
+	margin-left:10px;
+	margin-right:10px;
+}
+.footer{
+	display: flex;
+ 	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+@font-face {
+font-family: "Zevida-Bold";
+src: url("css/Zevida Web Font Kit/Zevida-Bold.eot");
+src: url("css/Zevida Web Font Kit/Zevida-Bold.woff") format("woff"),
+url("css/Zevida Web Font Kit/Zevida-Bold.otf") format("opentype"),
+url("css/Zevida Web Font Kit/Zevida-Bold.svg#filename") format("svg");
+font-weight: bold;
+}
+@font-face {
+font-family: "Zevida-Regular";
+src: url("css/Zevida Web Font Kit/Zevida-Regular.eot");
+src: url("css/Zevida Web Font Kit/Zevida-Regular.woff") format("woff"),
+url("css/Zevida Web Font Kit/Zevida-Regular.otf") format("opentype"),
+url("css/Zevida Web Font Kit/Zevida-Regular.svg#filename") format("svg");
+	
+}
+h1{
+	font-family:Verdana, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "sans-serif";
+	font-weight:100;
+	text-align: center;
+}
+.firstitem{
+	margin-top:100px;
+}
+#navbar {
+  overflow: display;
+  top: 0;
+  z-index: 99;
+  background-color: #ffffff;
+  padding: 0px 0px;
+  transition: 0.4s;
+  width: 100%;
+	
+}
+
+#full-navbar{
+	position:fixed;
+}
+.full-navbar{
+	  display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+	}
+
+.navbar-right{
+	margin-right:62px;
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.spacingbar{
+	display:flex;
+    align-items: center;
+	justify-content: space-between;
+	width:95%;
+}
+.invisibletext{
+	color:white;
+}

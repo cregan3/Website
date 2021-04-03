@@ -1,0 +1,12 @@
+/* Webfont: Zevida-Thin */@font-face {
+    font-family: 'ZevidaThin';
+    src: url('Zevida-Thin.eot'); /* IE9 Compat Modes */
+    src: url('Zevida-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Zevida-Thin.woff') format('woff'), /* Modern Browsers */
+         url('Zevida-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Zevida-Thin.svg#Zevida-Thin') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

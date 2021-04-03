@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.dropbtn {
+  color: black;
+  text-decoration: none;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #135a90; color: white; font-weight: bold}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #135a90; color: white;}
+
+.bigimage{
+	width: 70%;
+	height: auto;
+	display: block;
+	margin: auto;
+	max-width: 850px;
+}
+
+.smallimage{
+	width: auto;
+	height: 90px;
+	max-width: 200px;
+	display: inline-block;
+	
+}
+
+.spacingbar{
+	display:flex;
+    align-items: center;
+	justify-content: space-between;
+	width:95%;
+}
+.socialbar{
+    margin: 0px,0px,0px,0px;
+    display: flex;
+    padding: 0px,0px,0px,0px;
+	border:0px,0px,0px,0px;
+	height:auto;
+}
+.socialimage{
+	width: 20px; 
+	height: 20px; 
+	margin-bottom: 0px; 
+	margin-right: 10px;
+}
+
+ul{
+	list-style-type:none;
+}
+h5{
+	margin-left: 10px;
+	margin-right: 10px;
+	white-space: nowrap
+}
+.invisibletext{
+	color:white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+div{
+	padding-top:0px; 
+	padding-bottom: 0px;
+	border-top:0px;
+	border-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+@font-face {
+font-family: "Zevida-Bold";
+src: url("css/Zevida Web Font Kit/Zevida-Bold.eot");
+src: url("css/Zevida Web Font Kit/Zevida-Bold.woff") format("woff"),
+url("css/Zevida Web Font Kit/Zevida-Bold.otf") format("opentype"),
+url("css/Zevida Web Font Kit/Zevida-Bold.svg#filename") format("svg");
+font-weight: bold;
+}
+@font-face {
+font-family: "Zevida-Regular";
+src: url("css/Zevida Web Font Kit/Zevida-Regular.eot");
+src: url("css/Zevida Web Font Kit/Zevida-Regular.woff") format("woff"),
+url("css/Zevida Web Font Kit/Zevida-Regular.otf") format("opentype"),
+url("css/Zevida Web Font Kit/Zevida-Regular.svg#filename") format("svg");
+	
+}
+h1{
+	font:"Zevida-Regular";
+	margin-top:100px;
+}
+#navbar {
+  overflow: display;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #ffffff;
+  padding: 0px 0px;
+  transition: 0.4s;
+  width: 100%;
+	
+}
+
+#full-navbar{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+	display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+	}
+.full-navbar{
+	  position: -webkit-sticky;
+  	  position: sticky;
+      top: 0;
+}
+.navbar-right{
+	margin-right:62px;
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-end;
+}

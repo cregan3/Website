@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>East River Democratic Club Homepage</title>
+<!-- TemplateEndEditable -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/styles.css">
+	<script type="text/javascript" src="../js/myscripts.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/garand-sticky-1.0.4-4-g73b0fbe/jquery.sticky.js"></script>
+<script>
+    $(window).load(function(){
+      $("#sticker").sticky({ topSpacing: 0});
+    });
+  </script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+	<div id="navbar">
+		<img class="bigimage" id="biglogo" src="../Assets/Logo Rectangle White Background.jpg" alt="ERDC logo"/>
+		<div id="sticker">
+		<div id="full-navbar" >
+			<img class="smallimage" id="littlelogo" src="../Assets/Logo Square White Background.jpg" alt="ERDC logo"/>	
+			<div>
+		<ul>
+			<div class="navbar-right">
+			<div class="dropdown">
+  				<li class="dropbtn"><a href="../index.html" class="dropbtn">Home</a></li>
+			</div>
+			<div class="dropdown">
+  <li class="dropbtn"><a href="#" class="dropbtn">Events</a></li>
+  <div class="dropdown-content">
+    <a href="#">Next Meeting</a>
+    <a href="#">Upcoming Events</a>
+    <a href="#">News</a>  
+    <a href="#">Past Events</a>
+  </div>
+</div>
+			<div class="dropdown">
+			  <li class="dropbtn"><a href="#" class="dropbtn">About Us</a></li>
+			  <div class="dropdown-content">
+				<a href="#">Beliefs and History</a>
+				<a href="#">Executive Committee</a>
+				<a href="#">Elected Officials</a>
+				<a href="#">Bylaws</a>
+				<a href="#">Contact Us</a>
+			  </div>
+			</div>
+			<div class="dropdown">
+  <li class="dropbtn">Endorsements & Votes</li>
+  <div class="dropdown-content">
+    <a href="#">Statements & Resolutions</a>
+    <a href="#">Endorsed Candidates</a>
+    <a href="#">Candidate Questionnaires</a>
+  </div>
+</div>
+			<div class="dropdown">
+  <li class="dropbtn"><a href="#" class="dropbtn">About Us</a></li>
+  <div class="dropdown-content">
+    <a href="#">Beliefs and History</a>
+    <a href="#">Executive Committee</a>
+    <a href="#">Elected Officials</a>
+    <a href="#">Bylaws</a>
+    <a href="#">Contact Us</a>
+  </div>
+</div>
+			<div class="dropdown">
+  <li class="dropbtn">Get Involved</li>
+  <div class="dropdown-content">
+    <a href="#">Join the Club!</a>
+	<a href="#">Subscribe to Emails</a>
+    <a href="#">Committees</a>
+	<a href="#">Petitioning</a>
+	<a href="#">Run for Office</a>
+	<a href="https://secure.actblue.com/donate/east-river-democratic-club-1">Donate</a>
+  </div>
+</div>
+			<div class="dropdown">
+  <li class="dropbtn">Resources</li>
+  <div class="dropdown-content">
+    <a href="#">Links</a>
+	<a href="#">District Map</a>
+    <a href="https://findmypollsite.vote.nyc/">Find Your Polling Place</a>
+	<a href="#">Currently Elected Officials</a>
+  </div>
+</div>
+				</div>
+		</ul>
+	</div>
+		</div>
+		</div>
+		</div>
+	<h1> Welcome to the East River Democratic Club
+	</h1>
+	<img class="bigimage" src="../Assets/East River.jpg" alt="Picture of the East River"/>
+	<iframe class="calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=ZWFzdHJpdmVyZGVtb2NyYXRpY2NsdWJAZ21haWwuY29t&amp;color=%23039BE5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<div class="footer">
+	
+<ul class="socialbar" aria-label="Social bar">
+	<li class="socialimage"><a href="https://www.facebook.com/EastRiverDemocraticClub" target="_blank" data-content="https://www.facebook.com/EastRiverDemocraticClub" data-type="external">
+		<img id="FacebookLogo" alt="Facebook" data-type="image" itemprop="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/Facebook Logo Black 2.png">
+		</a>
+	</li>
+	<li class="socialimage"><a href="https://www.instagram.com/eastriverdems" target="_blank" data-content="https://www.instagram.com/eastriverdems" data-type="external">
+		<img id="InstagramLogo" alt="Instagram" data-type="image" itemprop="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/Instagram Logo Black.png">
+		</a>
+	</li>
+	<li class="socialimage"><a href="https://www.twitter.com/eastriverdems" target="_blank" data-content="https://www.twitter.com/eastriverdems" data-type="external">
+		<img id="TwitterLogo" alt="Twitter" data-type="image" itemprop="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/twitter logo black.png">
+		</a>
+	</li>
+</ul>
+	<h5>Copywright © 2021 East River Democratic Club</h5>
+</div>
+	</body>
+</html>
