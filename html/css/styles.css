@@ -181,6 +181,19 @@ h1{
 	margin-left:1.1em;
 	margin-right:1.1em;
 }
+.official{
+	width: 315px;
+	border-top: groove;
+	border-bottom: groove;
+	border-left: groove;
+	border-right: groove;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+	margin-left:1.1em;
+	margin-right:1.1em;
+}
+
 .candidate_pic{
 	width:278px;
 	height:261px;
