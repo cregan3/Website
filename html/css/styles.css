@@ -59,7 +59,7 @@
 	height: 90px;
 	max-width: 200px;
 	display: inline-block;
-	
+
 }
 
 .spacingbar{
@@ -76,9 +76,9 @@
 	height:auto;
 }
 .socialimage{
-	width: 20px; 
-	height: 20px; 
-	margin-bottom: 0px; 
+	width: 20px;
+	height: 20px;
+	margin-bottom: 0px;
 	margin-right: 10px;
 }
 
@@ -104,7 +104,7 @@ h5{
     width: 100%;
 }
 div{
-	padding-top:0px; 
+	padding-top:0px;
 	padding-bottom: 0px;
 	border-top:0px;
 	border-bottom: 0px;
@@ -125,7 +125,7 @@ src: url("css/Zevida Web Font Kit/Zevida-Regular.eot");
 src: url("css/Zevida Web Font Kit/Zevida-Regular.woff") format("woff"),
 url("css/Zevida Web Font Kit/Zevida-Regular.otf") format("opentype"),
 url("css/Zevida Web Font Kit/Zevida-Regular.svg#filename") format("svg");
-	
+
 }
 h1{
 	font:"Zevida-Regular";
@@ -140,7 +140,7 @@ h1{
   padding: 0px 0px;
   transition: 0.4s;
   width: 100%;
-	
+
 }
 
 #full-navbar{
@@ -178,8 +178,8 @@ h1{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 30px;
-	margin-left:1.1em;
-	margin-right:1.1em;
+	margin-left:1.75em;
+	margin-right:1.75em;
 }
 .official{
 	width: 315px;
@@ -203,7 +203,7 @@ h1{
 	margin-top:15px;
 	margin-left: auto;
 	margin-right: auto;
-	display: block;	
+	display: block;
 }
 .candidate_name{
 	font-size:35px;
@@ -223,7 +223,7 @@ h1{
 	text-align: center;
 }
 .candidate_link{
-	
+
 }
 .link_group{
 	display:flex;
