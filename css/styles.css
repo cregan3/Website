@@ -1,6 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
+.calendar{
+  border:solid 1px #777;
+	width:40em;
+  height:30em;
+  frameborder:0;
+  scrolling:no;
+}
 
 .dropbtn {
   color: black;
@@ -52,19 +59,19 @@
 	height: 90px;
 	max-width: 200px;
 	display: inline-block;
-	
+
 }
 
 
 .socialbar{
 	margin: 0px,0px,0px,0px;
-	display: flex;	
+	display: flex;
 }
 .socialimage{
-	width: 20px; 
-	height: 20px; 
-	margin-bottom: 0px; 
-	margin-right: 10px; 
+	width: 20px;
+	height: 20px;
+	margin-bottom: 0px;
+	margin-right: 10px;
 	display: inline-block;
 }
 ul{
@@ -94,7 +101,7 @@ src: url("css/Zevida Web Font Kit/Zevida-Regular.eot");
 src: url("css/Zevida Web Font Kit/Zevida-Regular.woff") format("woff"),
 url("css/Zevida Web Font Kit/Zevida-Regular.otf") format("opentype"),
 url("css/Zevida Web Font Kit/Zevida-Regular.svg#filename") format("svg");
-	
+
 }
 h1{
 	font-family:Verdana, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "sans-serif";
@@ -112,7 +119,7 @@ h1{
   padding: 0px 0px;
   transition: 0.4s;
   width: 100%;
-	
+
 }
 
 #full-navbar{
