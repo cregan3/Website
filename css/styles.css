@@ -186,6 +186,16 @@ h1 {
   transition: 0.4s;
   width: 100%;
 }
+#navbarindex {
+  overflow: display;
+  position:static
+  top: 0;
+  z-index: 99;
+  background-color: #ffffff;
+  padding: 0px 0px;
+  transition: 0.4s;
+  width: 100%;
+}
 
 #full-navbar-index {
   justify-content: center;
