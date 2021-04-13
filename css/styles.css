@@ -14,8 +14,6 @@
   border: solid 1px #777;
   width: 40em;
   height: 30em;
-  frameborder: 0;
-  scrolling: no;
 }
 
 .dropbtn {
@@ -98,10 +96,9 @@
 }
 
 .socialbar {
-  margin: 0px, 0px, 0px, 0px;
+  margin: 0px 0px 0px 0px;
   display: flex;
-  padding: 0px, 0px, 0px, 0px;
-  border: 0px, 0px, 0px, 0px;
+  padding: 0px 0px 0px 0px;
   height: auto;
 }
 
@@ -167,7 +164,7 @@ div {
 
 h1 {
   font-family: "Zevida-Regular";
-  font-weight: 100px;
+  font-weight: bold;
   margin-top: 100px;
   text-align: center;
 }
@@ -177,7 +174,7 @@ h1 {
 }
 
 #navbar {
-  overflow: display;
+  overflow: visible;
   position: fixed;
   top: 0;
   z-index: 99;
@@ -187,8 +184,8 @@ h1 {
   width: 100%;
 }
 #navbarindex {
-  overflow: display;
-  position:static
+  overflow: visible;
+  position:static;
   top: 0;
   z-index: 99;
   background-color: #ffffff;
