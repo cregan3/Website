@@ -110,8 +110,14 @@
   display: inline-block;
 }
 
+.no_border {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
 ul {
   list-style-type: none;
+
 }
 
 li {
@@ -249,18 +255,83 @@ h1 {
 }
 
 .official {
-  width: 315px;
+  width: 90%;
   border-top: groove;
   border-bottom: groove;
   border-left: groove;
   border-right: groove;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 30px;
-  margin-left: 1.1em;
-  margin-right: 1.1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.officialinternal{
+  margin: 15px 15px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: inherit;
+}
+.official_name {
+  font-size: 35px;
+  line-height: 1.4em;
+  letter-spacing: -0.05em;
+  font-family: sans-serif;
+  color: #000000;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+.official_position {
+  font-size: 16px;
+  color: rgb(84, 84, 84);
+  font-family: "sans-serif";
+  margin-bottom: 0px;
+  text-align: center;
 }
 
+.official_contact{
+  font-size: 0.85em;
+}
+
+.Lflex{
+  justify-content: flex-start;
+}
+
+.nameposition{
+  border-top: 0px;
+  border-bottom: 0px;
+
+  margin-block-end:0px;
+  margin-block-start:0px;
+}
+
+.vertflex{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.upflex{
+  align-content: flex-start;
+}
+span{
+  white-space: nowrap;
+}
+.horizflex{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  flex-wrap: wrap;
+}
+
+.tightflex{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+}
 .candidate_pic {
   width: 278px;
   height: 261px;
@@ -268,6 +339,21 @@ h1 {
   object-position: 50% 50%;
   margin-bottom: 0px;
   margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.officialcontent{
+  max-width:700px;
+}
+
+.official_pic {
+  height: 261px;
+  max-width: 250px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   display: block;
