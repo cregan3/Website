@@ -1,104 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<title>East River Democratic Club Homepage</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/styles.css">
-	<script src="js/myscripts.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script src="js/garand-sticky-1.0.4-4-g73b0fbe/jquery.sticky.js"></script>
-	<script>
-		$(window).load(function() {
-			$("#sticker").sticky({
-				topSpacing: 0
+	<head>
+		<title>East River Democratic Club Homepage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/myscripts.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="js/garand-sticky-1.0.4-4-g73b0fbe/jquery.sticky.js"></script>
+		<script>
+			$(window).load(function () {
+				$("#sticker").sticky({topSpacing: 0});
 			});
-		});
-	</script>
-	<script>
-		var slideIndex = 1;
-		showDivs(slideIndex);
+		</script>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
 
-		function plusDivs(n) {
-			showDivs(slideIndex += n);
-		}
-
-		function showDivs(n) {
-			var i;
-			var x = document.getElementsByClassName("mySlides");
-			if (n > x.length) {
-				slideIndex = 1
+			function plusDivs(n) {
+				showDivs(slideIndex += n);
 			}
-			if (n < 1) {
-				slideIndex = x.length
-			}
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";
-			}
-			x[slideIndex - 1].style.display = "block";
-		}
-	</script>
 
-</head>
+			function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				if (n > x.length) {
+					slideIndex = 1
+				}
+				if (n < 1) {
+					slideIndex = x.length
+				}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				x[slideIndex - 1].style.display = "block";
+			}
+		</script>
 
-<body>
-	<div id="navbarindex">
-		<img class="bigimage" id="biglogo" src="Assets/LogoRectangleWhiteBackground.jpg" alt="ERDC logo" />
-		<div id="sticker">
-			<div class="full-navbar" id="full-navbar-index">
-				<img class="smallimage" id="smallimageindexpage" src="Assets/LogoSquareWhiteBackground.jpg" alt="ERDC logo" />
-				<div>
+	</head>
+
+	<body>
+		<div id="navbarindex">
+			<img class="bigimage" id="biglogo" src="Assets/LogoRectangleWhiteBackground.jpg" alt="ERDC logo"/>
+			<div id="sticker">
+				<div class="full-navbar" id="full-navbar-index">
+					<img class="smallimage" id="smallimageindexpage" src="Assets/LogoSquareWhiteBackground.jpg" alt="ERDC logo"/>
 					<div>
-						<div class="navbar-right">
-							<div class="dropdown">
-								<div class="dropbtn"><a href="index.html" class="dropbtn">Home</a></div>
-							</div>
-							<div class="dropdown">
-								<div class="dropbtn"><a href="html/Upcoming-Events.html" class="dropbtn">Events</a></div>
-								<div class="dropdown-content">
-									<a href="html/Next-Meeting.html">Next Meeting</a>
-									<a href="html/Upcoming-Events.html">Upcoming Events</a>
-									<a href="html/News.html">News</a>
-									<a href="html/Past-Events.html">Past Events</a>
+						<div>
+							<div class="navbar-right">
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="index.html" class="dropbtn">Home</a>
+									</div>
 								</div>
-							</div>
-							<div class="dropdown">
-								<div class="dropbtn"><a href="html/About-Us.html" class="dropbtn">About Us</a></div>
-								<div class="dropdown-content">
-									<a href="html/Beliefs-History.html">Beliefs and History</a>
-									<a href="html/Exec-Committee.html">Executive Committee</a>
-									<a href="html/Elected-Officials.html">Elected Officials</a>
-									<a href="html/Bylaws.html">Bylaws</a>
-									<a href="html/Contact-Us.html">Contact Us</a>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="html/Upcoming-Events.html" class="dropbtn">Events</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="html/Next-Meeting.html">Next Meeting</a>
+										<a href="html/Upcoming-Events.html">Upcoming Events</a>
+										<a href="html/News.html">News</a>
+										<a href="html/Past-Events.html">Past Events</a>
+									</div>
 								</div>
-							</div>
-							<div class="dropdown">
-								<div class="dropbtn"> <a href="html/Endorsed-Candidates.html" class="dropbtn">Endorsements & Votes</a></div>
-								<div class="dropdown-content">
-									<a href="html/Statements-Resolutions.html">Statements & Resolutions</a>
-									<a href="html/Endorsed-Candidates.html">Endorsed Candidates</a>
-									<a href="html/Candidate-Questionnaires.html">Candidate Questionnaires</a>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="html/About-Us.html" class="dropbtn">About Us</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="html/Beliefs-History.html">Beliefs and History</a>
+										<a href="html/Exec-Committee.html">Executive Committee</a>
+										<a href="html/Elected-Officials.html">Elected Officials</a>
+										<a href="html/Club-Constitution.html">Club Constitution</a>
+										<a href="html/Contact-Us.html">Contact Us</a>
+									</div>
 								</div>
-							</div>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="html/Endorsed-Candidates.html" class="dropbtn">Endorsements & Votes</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="html/Statements-Resolutions.html">Statements & Resolutions</a>
+										<a href="html/Endorsed-Candidates.html">Endorsed Candidates</a>
+										<a href="html/Candidate-Questionnaires.html">Candidate Questionnaires</a>
+									</div>
+								</div>
 
-							<div class="dropdown">
-								<div class="dropbtn"> <a href="html/Get-Involved.html" class="dropbtn">Get Involved</a></div>
-								<div class="dropdown-content">
-									<a href="html/Join-Club.html">Join the Club!</a>
-									<a href="html/Subscribe-Emails.html">Subscribe to Emails</a>
-									<a href="html/Committees.html">Committees</a>
-									<a href="html/Petitioning.html">Petitioning</a>
-									<a href="html/Run-For-Office.html">Run for Office</a>
-									<a target="_blank" href="https://secure.actblue.com/donate/east-river-democratic-club-1">Donate</a>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="html/Get-Involved.html" class="dropbtn">Get Involved</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="html/Join-Club.html">Join the Club!</a>
+										<a href="html/Subscribe-Emails.html">Subscribe to Emails</a>
+										<a href="html/Committees.html">Committees</a>
+										<a href="html/Petitioning.html">Petitioning</a>
+										<a href="html/Run-For-Office.html">Run for Office</a>
+										<a target="_blank" href="https://secure.actblue.com/donate/east-river-democratic-club-1">Donate</a>
+									</div>
 								</div>
-							</div>
-							<div class="dropdown">
-								<div class="dropbtn"> <a href="html/Resources.html" class="dropbtn">Resources</a></div>
-								<div class="dropdown-content">
-									<a href="html/Links.html">Links</a>
-									<a href="html/District-Map.html">District Map</a>
-									<a target="_blank" href="https://findmypollsite.vote.nyc/">Find Your Polling Place</a>
-									<a href="html/Currently-Electeds.html">Currently Elected Officials</a>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="html/Resources.html" class="dropbtn">Resources</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="html/Links.html">Links</a>
+										<a href="html/District-Map.html">District Map</a>
+										<a target="_blank" href="https://findmypollsite.vote.nyc/">Find Your Polling Place</a>
+										<a href="html/Currently-Electeds.html">Currently Elected Officials</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -106,175 +117,185 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<h1> Welcome to the East River Democratic Club
-	</h1>
-	<img class="bigimage" src="Assets/EastRiver.jpg" alt="Picture of the East River" />
-<div>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
-	<p>&nbsp</p>
+		<h1>
+			Welcome to the East River Democratic Club
+		</h1>
+		<img class="bigimage" src="Assets/EastRiver.jpg" alt="Picture of the East River"/>
+		<div>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
+			<p>&nbsp</p>
 
-</div>
-	<div class="w3-content w3-display-container">
-		<img class="mySlides" src="Assets/Gallery/125972804_802201627030397_2781556200883339749_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/161000375_3681594725286370_1297447197387947779_n (1).jpg" >
-		<img class="mySlides" src="Assets/Gallery/161000375_3681594725286370_1297447197387947779_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/166399938_137245085006051_6841975232254666445_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/168460454_137245065006053_4057696442337766586_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/29104362_228743871019356_8510220510087348224_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/29258487_230750097485400_4795925138874826752_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/29261179_230750084152068_230404607220645888_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/29313479_230750100818733_4935979461142118400_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/29342836_230750150818728_2740299558457180160_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/29357105_230750104152066_4195538154557538304_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/29573155_235575967002813_827720620821544570_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/36755839_261629084420990_6051814043407089664_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/36756863_261629101087655_2393296635078639616_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/36811943_261629044420994_9008524535619649536_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/36937325_265159694067929_8296131749184798720_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/36957639_283612945532448_2101746657229012992_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/37137599_315243819036027_4380884246990946304_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/40130899_641668736226586_9058219443035997386_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/40581683_327951841098558_4514206117827444736_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/40867921_310410242876207_4415598964405960704_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/41517429_331191664107909_8587597970877186048_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/42002651_2168108343407775_7583419591403059513_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/42342008_317527835497781_8355351621550473216_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/42542348_1954604917931536_5113496016392042003_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/42647648_1935285276552266_148669079032065055_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/43209921_322906614959903_5706004708619976704_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/43242489_322906638293234_6049471735747575808_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/43275652_322906631626568_2090286619331395584_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/43913420_493403831166364_4235769612698530981_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/43984931_2276886412557749_1895425203192307979_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/44633218_330329004217664_7065514917553504256_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/46161486_577262312725012_5917572082955588614_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/46230635_774547469561326_8674547324209268738_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/46853498_635051783577148_6629164621653445552_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/47091580_166707084302037_4747449597648861111_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/49330414_285875172074211_6872387721229042980_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/49751080_2306142166376540_613286171070955320_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/49815616_593184994476147_7508732656353140206_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/50713347_563033667496193_4215518507678758276_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/50799843_240030676875342_1601393280788072224_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/51570670_413056929429842_4075611406292350639_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/52715670_1436007139875638_1466526196591478694_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/55778927_376215233218643_3128852312892241703_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56213883_651708071928890_3498938008667499455_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56416908_412914622625768_7393457682310496256_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56614089_412914765959087_5830836090537246720_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56616328_412914355959128_3499105522429198336_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56640073_412914965959067_1999068484696276992_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56673209_412914425959121_6930763819039850496_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56685809_412914569292440_8981466946029486080_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56691482_412914415959122_4902319845393039360_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56716083_412914252625805_240618000795828224_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56764574_412914775959086_7040042166600597504_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56781166_412914832625747_9138704109598146560_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56798025_412914552625775_12704113829609472_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56806360_412914629292434_8718108317467017216_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56806451_412915089292388_8336931984286679040_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56848090_412914895959074_1587121897705832448_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56862291_412914482625782_6791431811487498240_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56942600_412914239292473_7109829548300042240_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56972062_412914499292447_8803391966940233728_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/56985483_412914839292413_7221740444525264896_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/57000835_412914909292406_8911348327862239232_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/57019598_412914959292401_3953542938138509312_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/57029095_412914262625804_5910016445453959168_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/57068589_2334051443293083_4584910995268079231_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/57200749_412914689292428_8895762922337206272_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/57213829_412914699292427_8171381555034324992_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/57511889_373916776799044_2403407305436783123_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/58724941_2451456708221713_5903033075875008835_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/59234836_137491520665976_3078032107695857268_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/59495390_609687966108643_7177026157086546377_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/61482594_2233239703450817_5519958396986638309_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/62024641_2198967297082002_1846791362232171441_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/65912711_169606244079947_5820975435001660346_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/69169567_128561095156309_2536538714976511054_n.jpg" >
-		<img class="mySlides" src="Assets/Gallery/D0Wp8EqXcAYg5lB.jfif" >
-		<img class="mySlides" src="Assets/Gallery/D3wNAK1XsAA5sQ7.jfif" >
-		<img class="mySlides" src="Assets/Gallery/D3wNAK2WAAE6bsb.jfif" >
-		<img class="mySlides" src="Assets/Gallery/D6Tk8dGWwAAD9tk.jfif" >
-		<img class="mySlides" src="Assets/Gallery/Dfk-Q_7WAAAVZ3w.jfif" >
-		<img class="mySlides" src="Assets/Gallery/DfNgyIQWsAAPgyu.jfif" >
-		<img class="mySlides" src="Assets/Gallery/DgeslRbV4AAp4rs.jfif" >
-		<img class="mySlides" src="Assets/Gallery/Dh83zW9W4AIOA2P.jfif" >
-		<img class="mySlides" src="Assets/Gallery/DhCt37dWkAAjXnZ.jfif" >
-		<img class="mySlides" src="Assets/Gallery/DmSpz4jXcAM-cAt.jfif" >
-		<img class="mySlides" src="Assets/Gallery/download.png" >
-		<img class="mySlides" src="Assets/Gallery/DqSCSNzXQAEEEtQ.jfif" >
-		<img class="mySlides" src="Assets/Gallery/Dz-FJ0LWkAEPs6-.jfif" >
-		<img class="mySlides" src="Assets/Gallery/EAw-VrWWwAAP0d_.jfif" >
-		<img class="mySlides" src="Assets/Gallery/EAw-Yv0WkAAZ2P2.jfif" >
-		<img class="mySlides" src="Assets/Gallery/EETjxlIVUAAzzUA.jfif" >
-		<img class="mySlides" src="Assets/Gallery/EHMITy8WsAAfI2T.jfif" >
-		<img class="mySlides" src="Assets/Gallery/EIFbwUkXUAAcBjH.jfif" >
-		<img class="mySlides" src="Assets/Gallery/ERDC-Met-Repub-Protest.jpg" >
-		<img class="mySlides" src="Assets/Gallery/EwYN7ocXMAE48dd.jfif" >
-		<img class="mySlides" src="Assets/Gallery/img5-cf4195d4490dcae20ce1be5a584d61beac3abb62e3fb6928e31f6ff230ca3886.jpg" >
-		<img class="mySlides" src="Assets/Gallery/IMG_6644_copy.jpg" >
+		</div>
+		<div class="w3-content w3-display-container">
+			<img class="mySlides" src="Assets/Gallery/125972804_802201627030397_2781556200883339749_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/161000375_3681594725286370_1297447197387947779_n (1).jpg">
+			<img class="mySlides" src="Assets/Gallery/161000375_3681594725286370_1297447197387947779_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/166399938_137245085006051_6841975232254666445_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/168460454_137245065006053_4057696442337766586_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/29104362_228743871019356_8510220510087348224_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/29258487_230750097485400_4795925138874826752_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/29261179_230750084152068_230404607220645888_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/29313479_230750100818733_4935979461142118400_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/29342836_230750150818728_2740299558457180160_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/29357105_230750104152066_4195538154557538304_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/29573155_235575967002813_827720620821544570_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/36755839_261629084420990_6051814043407089664_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/36756863_261629101087655_2393296635078639616_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/36811943_261629044420994_9008524535619649536_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/36937325_265159694067929_8296131749184798720_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/36957639_283612945532448_2101746657229012992_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/37137599_315243819036027_4380884246990946304_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/40130899_641668736226586_9058219443035997386_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/40581683_327951841098558_4514206117827444736_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/40867921_310410242876207_4415598964405960704_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/41517429_331191664107909_8587597970877186048_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/42002651_2168108343407775_7583419591403059513_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/42342008_317527835497781_8355351621550473216_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/42542348_1954604917931536_5113496016392042003_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/42647648_1935285276552266_148669079032065055_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/43209921_322906614959903_5706004708619976704_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/43242489_322906638293234_6049471735747575808_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/43275652_322906631626568_2090286619331395584_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/43913420_493403831166364_4235769612698530981_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/43984931_2276886412557749_1895425203192307979_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/44633218_330329004217664_7065514917553504256_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/46161486_577262312725012_5917572082955588614_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/46230635_774547469561326_8674547324209268738_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/46853498_635051783577148_6629164621653445552_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/47091580_166707084302037_4747449597648861111_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/49330414_285875172074211_6872387721229042980_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/49751080_2306142166376540_613286171070955320_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/49815616_593184994476147_7508732656353140206_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/50713347_563033667496193_4215518507678758276_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/50799843_240030676875342_1601393280788072224_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/51570670_413056929429842_4075611406292350639_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/52715670_1436007139875638_1466526196591478694_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/55778927_376215233218643_3128852312892241703_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56213883_651708071928890_3498938008667499455_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56416908_412914622625768_7393457682310496256_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56614089_412914765959087_5830836090537246720_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56616328_412914355959128_3499105522429198336_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56640073_412914965959067_1999068484696276992_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56673209_412914425959121_6930763819039850496_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56685809_412914569292440_8981466946029486080_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56691482_412914415959122_4902319845393039360_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56716083_412914252625805_240618000795828224_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56764574_412914775959086_7040042166600597504_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56781166_412914832625747_9138704109598146560_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56798025_412914552625775_12704113829609472_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56806360_412914629292434_8718108317467017216_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56806451_412915089292388_8336931984286679040_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56848090_412914895959074_1587121897705832448_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56862291_412914482625782_6791431811487498240_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56942600_412914239292473_7109829548300042240_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56972062_412914499292447_8803391966940233728_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/56985483_412914839292413_7221740444525264896_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/57000835_412914909292406_8911348327862239232_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/57019598_412914959292401_3953542938138509312_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/57029095_412914262625804_5910016445453959168_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/57068589_2334051443293083_4584910995268079231_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/57200749_412914689292428_8895762922337206272_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/57213829_412914699292427_8171381555034324992_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/57511889_373916776799044_2403407305436783123_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/58724941_2451456708221713_5903033075875008835_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/59234836_137491520665976_3078032107695857268_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/59495390_609687966108643_7177026157086546377_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/61482594_2233239703450817_5519958396986638309_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/62024641_2198967297082002_1846791362232171441_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/65912711_169606244079947_5820975435001660346_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/69169567_128561095156309_2536538714976511054_n.jpg">
+			<img class="mySlides" src="Assets/Gallery/D0Wp8EqXcAYg5lB.jfif">
+			<img class="mySlides" src="Assets/Gallery/D3wNAK1XsAA5sQ7.jfif">
+			<img class="mySlides" src="Assets/Gallery/D3wNAK2WAAE6bsb.jfif">
+			<img class="mySlides" src="Assets/Gallery/D6Tk8dGWwAAD9tk.jfif">
+			<img class="mySlides" src="Assets/Gallery/Dfk-Q_7WAAAVZ3w.jfif">
+			<img class="mySlides" src="Assets/Gallery/DfNgyIQWsAAPgyu.jfif">
+			<img class="mySlides" src="Assets/Gallery/DgeslRbV4AAp4rs.jfif">
+			<img class="mySlides" src="Assets/Gallery/Dh83zW9W4AIOA2P.jfif">
+			<img class="mySlides" src="Assets/Gallery/DhCt37dWkAAjXnZ.jfif">
+			<img class="mySlides" src="Assets/Gallery/DmSpz4jXcAM-cAt.jfif">
+			<img class="mySlides" src="Assets/Gallery/download.png">
+			<img class="mySlides" src="Assets/Gallery/DqSCSNzXQAEEEtQ.jfif">
+			<img class="mySlides" src="Assets/Gallery/Dz-FJ0LWkAEPs6-.jfif">
+			<img class="mySlides" src="Assets/Gallery/EAw-VrWWwAAP0d_.jfif">
+			<img class="mySlides" src="Assets/Gallery/EAw-Yv0WkAAZ2P2.jfif">
+			<img class="mySlides" src="Assets/Gallery/EETjxlIVUAAzzUA.jfif">
+			<img class="mySlides" src="Assets/Gallery/EHMITy8WsAAfI2T.jfif">
+			<img class="mySlides" src="Assets/Gallery/EIFbwUkXUAAcBjH.jfif">
+			<img class="mySlides" src="Assets/Gallery/ERDC-Met-Repub-Protest.jpg">
+			<img class="mySlides" src="Assets/Gallery/EwYN7ocXMAE48dd.jfif">
+			<img class="mySlides" src="Assets/Gallery/img5-cf4195d4490dcae20ce1be5a584d61beac3abb62e3fb6928e31f6ff230ca3886.jpg">
+			<img class="mySlides" src="Assets/Gallery/IMG_6644_copy.jpg">
 
-		<button class="button-display-left" onclick="plusDivs(-1)">&#10094;</button>
-		<button class="button-display-right" onclick="plusDivs(1)">&#10095;</button>
-	</div>
-<div  class="twitter-timeline" >
-<a class="twitter-timeline" href="https://twitter.com/eastriverdems?ref_src=twsrc%5Etfw">Tweets by eastriverdems</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
-	<div class="footer">
-
-		<div class="spacingbar">
-			<img id="myBtn" class="socialimage" alt="Up Button" data-type="image" onclick="topFunction()" src="Assets/Generic/back-to-top-icon-png-0.jpg">
-			<ul class="socialbar">
-				<li class="socialimage"><a href="https://www.facebook.com/EastRiverDemocraticClub" target="_blank" data-content="https://www.facebook.com/EastRiverDemocraticClub" data-type="external">
-						<img id="FacebookLogo" class="socialimage" alt="Facebook" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="Assets/Generic/FacebookLogoBlack2.png">
-					</a>
-				</li>
-				<li class="socialimage"><a href="https://www.instagram.com/eastriverdems" target="_blank" data-content="https://www.instagram.com/eastriverdems" data-type="external">
-						<img id="InstagramLogo" alt="Instagram" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="Assets/Generic/InstagramLogoBlack.png">
-					</a>
-				</li>
-				<li class="socialimage"><a href="https://www.twitter.com/eastriverdems" target="_blank" data-content="https://www.twitter.com/eastriverdems" data-type="external">
-						<img id="TwitterLogo" alt="Twitter" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="Assets/Generic/twitterlogoblack.png">
-					</a>
-				</li>
-			</ul>
-			<img class="socialimage" alt="Blank for spacing" data-type="image" src="Assets/Generic/BLANK.png">
+			<button class="button-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="button-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		<div class="twitter-timeline">
+			<a class="twitter-timeline" href="https://twitter.com/eastriverdems?ref_src=twsrc%5Etfw">Tweets by eastriverdems</a>
+			<script async="async" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
 
 		<div class="footer">
-			<div class="socialbar">
-				<h5><a href="html/Privacy.html">Privacy</a></h5>
-				<h5><a href="html/Legal.html">Legal</a></h5>
-			</div>
+
 			<div class="spacingbar">
-				<h5 class="invisibletext">.....................................................................</h5>
-				<h5>Copyright © 2021 East River Democratic Club</h5>
-				<h5>Website designed by <a href="https://www.linkedin.com/in/creganjd/" target="_blank">Christopher Regan</a></h5>
+				<img id="myBtn" class="socialimage" alt="Up Button" data-type="image" onclick="topFunction()" src="Assets/Generic/back-to-top-icon-png-0.jpg">
+				<ul class="socialbar">
+					<li class="socialimage">
+						<a href="https://www.facebook.com/EastRiverDemocraticClub" target="_blank" data-content="https://www.facebook.com/EastRiverDemocraticClub" data-type="external">
+							<img id="FacebookLogo" class="socialimage" alt="Facebook" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="Assets/Generic/FacebookLogoBlack2.png">
+						</a>
+					</li>
+					<li class="socialimage">
+						<a href="https://www.instagram.com/eastriverdems" target="_blank" data-content="https://www.instagram.com/eastriverdems" data-type="external">
+							<img id="InstagramLogo" alt="Instagram" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="Assets/Generic/InstagramLogoBlack.png">
+						</a>
+					</li>
+					<li class="socialimage">
+						<a href="https://www.twitter.com/eastriverdems" target="_blank" data-content="https://www.twitter.com/eastriverdems" data-type="external">
+							<img id="TwitterLogo" alt="Twitter" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="Assets/Generic/twitterlogoblack.png">
+						</a>
+					</li>
+				</ul>
+				<img class="socialimage" alt="Blank for spacing" data-type="image" src="Assets/Generic/BLANK.png">
+			</div>
+
+			<div class="footer">
+				<div class="socialbar">
+					<h5>
+						<a href="html/Privacy.html">Privacy</a>
+					</h5>
+					<h5>
+						<a href="html/Legal.html">Legal</a>
+					</h5>
+				</div>
+				<div class="spacingbar">
+					<h5 class="invisibletext">.....................................................................</h5>
+					<h5>Copyright © 2021 East River Democratic Club</h5>
+					<h5>Website designed by
+						<a href="https://www.linkedin.com/in/creganjd/" target="_blank">Christopher Regan</a>
+					</h5>
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 
 </html>
