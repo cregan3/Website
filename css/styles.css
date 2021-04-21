@@ -10,6 +10,29 @@
   height: 300px;
 }
 
+.Questionnaires{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+  justify-content: center;
+}
+
+.QuesDoc{
+  height:220px;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Portrait {
+  height:300px;
+  width:400px;
+  margin-left:auto;
+  margin-right:auto;
+}
 
   .body {
     background: transparent !important;
