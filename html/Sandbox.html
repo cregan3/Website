@@ -1,94 +1,546 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<title>SANDBOX - NOT TO BE INCLUDED IN WEBSITE</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../css/styles.css">
-</head>
+	<head>
+		<title>East River Democratic Club Homepage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/styles.css">
+		<script src="../js/myscripts.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="../js/garand-sticky-1.0.4-4-g73b0fbe/jquery.sticky.js"></script>
+		<script>
+			$(window).load(function () {
+				$("#sticker").sticky({topSpacing: 0});
+			});
+		</script>
+		<script>
+			var slideIndex = 2;
+			showDivs(slideIndex);
 
-<body>
+			function plusDivs(n) {
+				showDivs(slideIndex += n);
+			}
 
+			function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				if (n > x.length) {
+					slideIndex = 1
+				}
+				if (n < 1) {
+					slideIndex = x.length
+				}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				x[slideIndex - 1].style.display = "block";
+			}
+		</script>
 
-<div role="grid" class="grid">
-  <div role="gridcell" class="official">
-    <div class="officialinternal">
-      <div class="">
-        <img class="official_pic" src="../Assets/Officials/Ben-Kallos.jpg" alt="Ben Kallos.jpg">
-      </div>
-      <div class="officialinternal">
-        <div class="">
-          <h4 class="official_name">
-            <span> Ben Kallos</span>
-          </h4>
-        </div>
-        <div class="">
-          <p class="official_position">
-            <span>City Council Member </span>
-						<span>- District 5</span>
-          </p>
-        </div>
-        <div class="link_group">
-          <div aria-disabled="false" class="candidate_link">
-            <a data-testid="linkElement" href="https://www.voterebecca.nyc/" target="_blank" rel="noopener" class="">
-              <span class="">LEARN MORE</span>
-            </a>
-          </div>
-          <div aria-disabled="false" class="candidate_link">
-            <a data-testid="linkElement" href="https://www.voterebecca.nyc/contact/" target="_blank" rel="noopener" class="">
-              <span class="">VOLUNTEER</span>
-            </a>
-          </div>
-          <div aria-disabled="false" class="candidate_link">
-            <a data-testid="linkElement" href="https://secure.actblue.com/donate/rwfordl" target="_blank" rel="noopener" class="">
-              <span class="">CONTRIBUTE</span>
-            </a>
-          </div>
-        </div>
-        <div>
-          <ul class="link_group" aria-label="Social Bar">
-            <li>
-              <a href="https://www.facebook.com/VoteRebeccaWeintraub/" target="_blank" rel="noopener">
-                <img alt="Facebook" class="social-link" src="../Assets/Generic/FacebookLogoBlack.png">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.twitter.com/RSWinNYC/" target="_blank" rel="noopener">
-                <img alt="Twitter" class="social-link" src="../Assets/Generic/twitterlogoblack.png">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/rsw_in_nyc/" target="_blank" rel="noopener">
-                <img alt="Instagram" class="social-link" src="../Assets/Generic/InstagramLogoBlack.png">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/rsw_in_nyc/" target="_blank" rel="noopener">
-                <img alt="Youtube" class="social-link" src="../Assets/Generic/YoutubeLogoBlack.png">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/rsw_in_nyc/" target="_blank" rel="noopener">
-                <img alt="Github" class="social-link" src="../Assets/Generic/GithubLogoBlack.png">
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="">
-        <img class="official_pic" src="../Assets/Geography/NYC-5-Council-District.png" alt="City Council District 5.png">
-      </div>
-    </div>
-  </div>
-</div>
+		<meta charset="UTF-8">
+		<title>CodePen - Scrolling &amp; Looping Gallery - Vanilla HTML/CSS/JS - ES5 - No Touch Events</title>
+		<link rel="stylesheet" href="../css/sandbox.css">
 
-<p>&nbsp;</p>
+	</head>
+	<body>
+		<div id="navbarindex">
+			<img class="bigimage" id="biglogo" src="../Assets/LogoRectangleWhiteBackground.jpg" alt="ERDC logo"/>
+			<div id="sticker">
+				<div class="full-navbar" id="full-navbar-index">
+					<img class="smallimage" id="smallimageindexpage" src="../Assets/LogoSquareWhiteBackground.jpg" alt="ERDC logo"/>
+					<div>
+						<div>
+							<div class="navbar-right">
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="index.html" class="dropbtn">Home</a>
+									</div>
+								</div>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="html/Upcoming-Events.html" class="dropbtn">Events</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="html/Next-Meeting.html">Next Meeting</a>
+										<a href="html/Upcoming-Events.html">Upcoming Events</a>
+										<a href="html/News.html">News</a>
+										<a href="html/Past-Events.html">Past Events</a>
+									</div>
+								</div>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="html/About-Us.html" class="dropbtn">About Us</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="html/Beliefs-History.html">Beliefs and History</a>
+										<a href="html/Exec-Committee.html">Executive Committee</a>
+										<a href="html/Elected-Officials.html">Elected Officials</a>
+										<a href="html/Club-Constitution.html">Club Constitution</a>
+										<a href="html/Contact-Us.html">Contact Us</a>
+									</div>
+								</div>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="html/Candidate-Questionnaires.html" class="dropbtn">Endorsements & Votes</a>
+									</div>
+									<div class="dropdown-content">
+										<a target="_blank" href="https://www.voterebecca.nyc/judicialelections">Judicial Candidates</a>
+										<a href="html/Statements-Resolutions.html">Statements & Resolutions</a>
+										<!--<a href="html/Endorsed-Candidates.html">Endorsed Candidates</a>-->
+										<a href="html/Candidate-Questionnaires.html">Candidate Questionnaires</a>
+									</div>
+								</div>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-</body>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="html/Get-Involved.html" class="dropbtn">Get Involved</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="html/Join-Club.html">Join the Club!</a>
+										<a href="html/Subscribe-Emails.html">Subscribe to Emails</a>
+										<a href="html/Committees.html">Committees</a>
+										<a href="html/Petitioning.html">Petitioning</a>
+										<a href="html/Run-For-Office.html">Run for Office</a>
+										<a target="_blank" href="https://secure.actblue.com/donate/east-river-democratic-club-1">Donate</a>
+									</div>
+								</div>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="html/Resources.html" class="dropbtn">Resources</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="html/Links.html">Links</a>
+										<a href="html/District-Map.html">District Map</a>
+										<a target="_blank" href="https://findmypollsite.vote.nyc/">Find Your Polling Place</a>
+										<a href="html/Currently-Electeds.html">Currently Elected Officials</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h1>
+			Welcome to the East River Democratic Club
+		</h1>
+		<!-- partial:index.partial.html -->
+		<div class="container">
+
+			<div class="feature">
+				<figure class="featured-item image-holder r-3-2 transition"></figure>
+			</div>
+
+			<div class="gallery-wrapper">
+				<div class="gallery">
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 active transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+					<div class="item-wrapper">
+						<figure class="gallery-item image-holder r-3-2 transition"></figure>
+					</div>
+				</div>
+			</div>
+
+			<div class="controls">
+				<button class="move-btn left">&larr;</button>
+				<button class="move-btn right">&rarr;</button>
+			</div>
+
+		</div>
+		<!-- partial -->
+		<script src="../js/sandbox.js"></script>
+		<div class="twitter-timeline">
+			<a class="twitter-timeline" href="https://twitter.com/eastriverdems?ref_src=twsrc%5Etfw">Tweets by eastriverdems</a>
+			<script async="async" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+
+		<div class="footer">
+
+			<div class="spacingbar">
+				<img id="myBtn" class="socialimage" alt="Up Button" data-type="image" onclick="topFunction()" src="../Assets/Generic/back-to-top-icon-png-0.jpg">
+				<ul class="socialbar">
+					<li class="socialimage">
+						<a href="https://www.facebook.com/EastRiverDemocraticClub" target="_blank" data-content="https://www.facebook.com/EastRiverDemocraticClub" data-type="external">
+							<img id="FacebookLogo" class="socialimage" alt="Facebook" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/FacebookLogoBlack2.png">
+						</a>
+					</li>
+					<li class="socialimage">
+						<a href="https://www.instagram.com/eastriverdems" target="_blank" data-content="https://www.instagram.com/eastriverdems" data-type="external">
+							<img id="InstagramLogo" alt="Instagram" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/InstagramLogoBlack.png">
+						</a>
+					</li>
+					<li class="socialimage">
+						<a href="https://www.twitter.com/eastriverdems" target="_blank" data-content="https://www.twitter.com/eastriverdems" data-type="external">
+							<img id="TwitterLogo" alt="Twitter" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/twitterlogoblack.png">
+						</a>
+					</li>
+				</ul>
+				<img class="socialimage" alt="Blank for spacing" data-type="image" src="Assets/Generic/BLANK.png">
+			</div>
+
+			<div class="footer">
+				<div class="socialbar">
+					<h5>
+						<a href="html/Privacy.html">Privacy</a>
+					</h5>
+					<h5>
+						<a href="html/Legal.html">Legal</a>
+					</h5>
+				</div>
+				<div class="spacingbar">
+					<h5 class="invisibletext">.....................................................................</h5>
+					<h5>Copyright &#169; 2021 East River Democratic Club</h5>
+					<h5>Website designed by
+						<a href="https://www.linkedin.com/in/creganjd/" target="_blank">Christopher Regan</a>
+					</h5>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
