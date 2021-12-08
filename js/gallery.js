@@ -95,7 +95,7 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 //Start this baby up
 (function init() {
 	var images = [
-    'Assets/Other/WebsiteCommittee.jpg',
+    
     'Assets/Gallery/IMG_1857.jpg',
     'Assets/Gallery/IMG_2310.jpg',
     'Assets/Gallery/IMG_2311.jpg',

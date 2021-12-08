@@ -18,8 +18,8 @@ body {
 .container {
 	margin-left: auto;
   margin-right: auto;
-	width: 90%;
-  max-height:calc(100% - 100px)
+	width: 65%;
+  max-height:calc(90% - 100px)
 }
 
 
