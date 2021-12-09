@@ -95,7 +95,7 @@ rightBtn.addEventListener('mouseleave', stopMovement);
 //Start this baby up
 (function init() {
 	var images = [
-    
+
     'Assets/Gallery/IMG_1857.jpg',
     'Assets/Gallery/IMG_2310.jpg',
     'Assets/Gallery/IMG_2311.jpg',
@@ -190,6 +190,7 @@ rightBtn.addEventListener('mouseleave', stopMovement);
     'Assets/Gallery/EIFbwUkXUAAcBjH.jfif',
     'Assets/Gallery/ERDC-Met-Repub-Protest.jpg',
     'Assets/Gallery/EwYN7ocXMAE48dd.jfif',
+		'Assets/Gallery/IMG_1857.jpg',
 	];
 
 	//Set Initial Featured Image
