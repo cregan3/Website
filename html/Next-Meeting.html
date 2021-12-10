@@ -1,121 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<title>East River Democratic Club - Next Meeting</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../css/styles.css">
-</head>
+	<head>
+		<title>East River Democratic Club - Next Meeting</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/styles.css">
+		<style>
+			.addToCalendar {
+				background-color: #44c767;
+				border-radius: 28px;
+				border: 1px solid #18ab29;
+				display: inline-block;
+				cursor: pointer;
+				color: #ffffff;
+				font-family: Arial;
+				font-size: 16px;
+				padding: 16px 31px;
+				text-decoration: none;
+				text-shadow: 0 1px 0 #2f6627;
+			}
+			.addToCalendar:hover {
+				background-color: #5cbf2a;
+			}
+			.addToCalendar:active {
+				position: relative;
+				top: 1px;
+			}
+		</style>
+	</head>
 
-<body>
-	<div id="navbar">
+	<body>
+		<div id="navbar">
 
-		<div id="sticker">
-			<div class="full-navbar" id="full-navbar-subpages">
-				<img class="smallimage" id="littlelogo" src="../Assets/LogoSquareWhiteBackground.jpg" alt="ERDC logo" />
-				<div>
+			<div id="sticker">
+				<div class="full-navbar" id="full-navbar-subpages">
+					<img class="smallimage" id="littlelogo" src="../Assets/LogoSquareWhiteBackground.jpg" alt="ERDC logo"/>
 					<div>
-						<nav class="navbar-right">
-							<div class="dropdown">
-								<div class="dropbtn"><a href="../index.html" class="dropbtn">Home</a></div>
-							</div>
-							<div class="dropdown">
-								<div class="dropbtn"><a href="../html/Upcoming-Events.html" class="dropbtn">Events</a></div>
-								<div class="dropdown-content">
-									<a href="../html/Next-Meeting.html">Next Meeting</a>
-									<a href="../html/Upcoming-Events.html">Upcoming Events</a>
-									<a href="../html/News.html">News</a>
-									<a href="../html/Past-Events.html">Past Events</a>
+						<div>
+							<nav class="navbar-right">
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="../index.html" class="dropbtn">Home</a>
+									</div>
 								</div>
-							</div>
-							<div class="dropdown">
-								<div class="dropbtn"><a href="../html/About-Us.html" class="dropbtn">About Us</a></div>
-								<div class="dropdown-content">
-									<a href="../html/Beliefs-History.html">Beliefs and History</a>
-									<a href="../html/Exec-Committee.html">Executive Committee</a>
-									<a href="../html/Elected-Officials.html">Elected Officials</a>
-									<a href="../html/Club-Constitution.html">Club Constitution</a>
-									<a href="../html/Contact-Us.html">Contact Us</a>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="../html/Upcoming-Events.html" class="dropbtn">Events</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="../html/Next-Meeting.html">Next Meeting</a>
+										<a href="../html/Upcoming-Events.html">Upcoming Events</a>
+										<a href="../html/News.html">News</a>
+										<a href="../html/Past-Events.html">Past Events</a>
+									</div>
 								</div>
-							</div>
-							<div class="dropdown">
-								<div class="dropbtn"> <a href="../html/Candidate-Questionnaires.html" class="dropbtn">Endorsements & Votes</a></div>
-								<div class="dropdown-content">
-									<a target="_blank" href="https://www.voterebecca.nyc/judicialelections">Judicial Candidates</a>
-									<a href="../html/Statements-Resolutions.html">Statements & Resolutions</a>
-									<!--<a href="../html/Endorsed-Candidates.html">Endorsed Candidates</a> -->
-									<a href="../html/Candidate-Questionnaires.html">Candidate Questionnaires</a>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="../html/About-Us.html" class="dropbtn">About Us</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="../html/Beliefs-History.html">Beliefs and History</a>
+										<a href="../html/Exec-Committee.html">Executive Committee</a>
+										<a href="../html/Elected-Officials.html">Elected Officials</a>
+										<a href="../html/Club-Constitution.html">Club Constitution</a>
+										<a href="../html/Contact-Us.html">Contact Us</a>
+									</div>
 								</div>
-							</div>
-							<div class="dropdown">
-								<div class="dropbtn"> <a href="../html/Get-Involved.html" class="dropbtn">Get Involved</a></div>
-								<div class="dropdown-content">
-									<a href="../html/Join-Club.html">Join the Club!</a>
-									<a href="../html/Subscribe-Emails.html">Subscribe to Emails</a>
-									<a href="../html/Committees.html">Committees</a>
-									<a href="../html/Petitioning.html">Petitioning</a>
-									<a href="../html/Run-For-Office.html">Run for Office</a>
-									<a target="_blank" href="https://secure.actblue.com/donate/east-river-democratic-club-1">Donate</a>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="../html/Candidate-Questionnaires.html" class="dropbtn">Endorsements & Votes</a>
+									</div>
+									<div class="dropdown-content">
+										<a target="_blank" href="https://www.voterebecca.nyc/judicialelections">Judicial Candidates</a>
+										<a href="../html/Statements-Resolutions.html">Statements & Resolutions</a>
+										<!--<a href="../html/Endorsed-Candidates.html">Endorsed Candidates</a> -->
+										<a href="../html/Candidate-Questionnaires.html">Candidate Questionnaires</a>
+									</div>
 								</div>
-							</div>
-							<div class="dropdown">
-								<div class="dropbtn"> <a href="../html/Resources.html" class="dropbtn">Resources</a></div>
-								<div class="dropdown-content">
-									<a href="../html/Links.html">Links</a>
-									<a href="../html/District-Map.html">District Map</a>
-									<a target="_blank" href="https://findmypollsite.vote.nyc/">Find Your Polling Place</a>
-									<a href="../html/Currently-Electeds.html">Currently Elected Officials</a>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="../html/Get-Involved.html" class="dropbtn">Get Involved</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="../html/Join-Club.html">Join the Club!</a>
+										<a href="../html/Subscribe-Emails.html">Subscribe to Emails</a>
+										<a href="../html/Committees.html">Committees</a>
+										<a href="../html/Petitioning.html">Petitioning</a>
+										<a href="../html/Run-For-Office.html">Run for Office</a>
+										<a target="_blank" href="https://secure.actblue.com/donate/east-river-democratic-club-1">Donate</a>
+									</div>
 								</div>
-							</div>
-						</nav>
+								<div class="dropdown">
+									<div class="dropbtn">
+										<a href="../html/Resources.html" class="dropbtn">Resources</a>
+									</div>
+									<div class="dropdown-content">
+										<a href="../html/Links.html">Links</a>
+										<a href="../html/District-Map.html">District Map</a>
+										<a target="_blank" href="https://findmypollsite.vote.nyc/">Find Your Polling Place</a>
+										<a href="../html/Currently-Electeds.html">Currently Elected Officials</a>
+									</div>
+								</div>
+							</nav>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<h1> NEXT MEETING </h1>
-	<p>Meetings are every second Thursday of the Month</p>
-	<p>&nbsp;</p>
+		<h1>
+			NEXT MEETING
+		</h1>
+		<p>Meetings are every second Thursday of the Month</p>
+		<p>&nbsp;</p>
 
-	<p>Join us Thursday, December 9th, at 7 PM for the East River Democratic Club Monthly Meeting.  </p>
+		<p>Join us Thursday, January 13th, at 7 PM for the East River Democratic Club Monthly Meeting.
+		</p>
+		<p>&nbsp;</p>
+		<h1>
+
+			<a target="_blank" href="https://us02web.zoom.us/j/88128956709?pwd=WnoreWVRdDN1blh2ZWg1eFEzSVp0dz09" class="addToCalendar1 centered">Join the Meeting NOW!</a>
+			<p>&nbsp;</p>
+
+			<a
+				target="_blank"
+				href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20220114T000000Z%2F20220114T020000Z&details=January%20Meeting%20Agenda%3A%0ADistrict%20Leader%20Updates%0ACommunity%20Announcements%0AERDC%20Club%20Judicial%20Delegate%20Elections%0AAnd%20more%21&location=https%3A%2F%2Fus02web.zoom.us%2Fj%2F88128956709%3Fpwd%3DWnoreWVRdDN1blh2ZWg1eFEzSVp0dz09&text=East%20River%20Democratic%20Club%20January%20Meeting"
+				class="addToCalendar">Add to Google Calendar</a>
+
+			<a
+				target="_blank"
+				href="https://outlook.live.com/calendar/0/deeplink/compose?body=January%20Meeting%20Agenda%3A%0ADistrict%20Leader%20Updates%0ACommunity%20Announcements%0AERDC%20Club%20Judicial%20Delegate%20Elections%0AAnd%20more%21&enddt=2022-01-14T02%3A00%3A00%2B00%3A00&location=https%3A%2F%2Fus02web.zoom.us%2Fj%2F88128956709%3Fpwd%3DWnoreWVRdDN1blh2ZWg1eFEzSVp0dz09&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-14T00%3A00%3A00%2B00%3A00&subject=East%20River%20Democratic%20Club%20January%20Meeting"
+				class="addToCalendar"> add to Outlook Calendar</a>
+
+			<a
+				target="_blank"
+				href="https://outlook.office.com/calendar/0/deeplink/compose?body=January%20Meeting%20Agenda%3A%0ADistrict%20Leader%20Updates%0ACommunity%20Announcements%0AERDC%20Club%20Judicial%20Delegate%20Elections%0AAnd%20more%21&enddt=2022-01-14T02%3A00%3A00%2B00%3A00&location=https%3A%2F%2Fus02web.zoom.us%2Fj%2F88128956709%3Fpwd%3DWnoreWVRdDN1blh2ZWg1eFEzSVp0dz09&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-01-14T00%3A00%3A00%2B00%3A00&subject=East%20River%20Democratic%20Club%20January%20Meeting"
+				class="addToCalendar"> Add to O365 Calendar</a>
+
+			<a
+				target="_blank"
+				href="https://calendar.yahoo.com/?desc=January%20Meeting%20Agenda%3A%0ADistrict%20Leader%20Updates%0ACommunity%20Announcements%0AERDC%20Club%20Judicial%20Delegate%20Elections%0AAnd%20more%21&et=20220114T020000Z&in_loc=https%3A%2F%2Fus02web.zoom.us%2Fj%2F88128956709%3Fpwd%3DWnoreWVRdDN1blh2ZWg1eFEzSVp0dz09&st=20220114T000000Z&title=East%20River%20Democratic%20Club%20January%20Meeting&v=60"
+				class="addToCalendar"> Add to Yahoo Calendar</a>
 <p>&nbsp;</p>
-<h1>
-<style>.addToCalendar1 {width:50%; background-color:blue;border-radius:28px;border:1px solid #18ab29;display:inline-block;cursor:pointer;color:#ffffff;font-family:Arial;font-size:16px;padding:16px 31px;text-decoration:none;text-shadow:0px 1px 0px #2f6627;}.addToCalendar1:hover {background-color:#dark-blue;}.addToCalendar1:active {position:relative;top:1px;}</style>
-<a target="_blank" href="https://us02web.zoom.us/j/88128956709?pwd=WnoreWVRdDN1blh2ZWg1eFEzSVp0dz09" class="addToCalendar1 centered">Join the Meeting NOW!</a>
-<p>&nbsp;</p>
-
-<style>
-	.addToCalendar {background-color:#44c767;border-radius:28px;border:1px solid #18ab29;display:inline-block;cursor:pointer;color:#ffffff;font-family:Arial;font-size:16px;padding:16px 31px;text-decoration:none;text-shadow:0px 1px 0px #2f6627;}.addToCalendar:hover {background-color:#5cbf2a;}.addToCalendar:active {position:relative;top:1px;}
-</style>
-
-<a target="_blank"  href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20211210T000000Z%2F20211210T020000Z&details=MEETING%20AGENDA%0ADistrict%20Leader%20Updates%0ACommunity%20Announcements%0AThe%20Future%20of%20Outdoor%20Dining%20with%20David%20Vega-Barachowitz%2C%20Director%20of%20Urban%20Design%20at%20WXY%20Studio%2C%20Rebecca%20Lamorte%2C%20Former%20CD%205%20Candidate%20%26%20Advocate%2C%20and%20John%20Phillips%2C%20Owner%20of%20the%20Mansion%20Diner%0AERDC%20Club%20Elections%0AAnd%20more%21%0A%0AWe%20look%20forward%20to%20seeing%20everyone%20next%20week%20at%207%20PM%0A%0AJoin%20Zoom%20Meeting%0Ahttps%3A%2F%2Fus02web.zoom.us%2Fj%2F88128956709%3Fpwd%3DWnoreWVRdDN1blh2ZWg1eFEzSVp0dz09%0A%0AMeeting%20ID%3A%20881%202895%206709%0APasscode%3A%20396705%0AOne%20tap%20mobile%0A%2B19292056099%2C%2C88128956709%23%2C%2C%2C%2C%2A396705%23%20US%20%28New%20York%29%0A%2B13126266799%2C%2C88128956709%23%2C%2C%2C%2C%2A396705%23%20US%20%28Chicago%29%0A%0ADial%20by%20your%20location%0A%20%20%20%20%20%20%20%20%2B1%20929%20205%206099%20US%20%28New%20York%29%0A%20%20%20%20%20%20%20%20%2B1%20312%20626%206799%20US%20%28Chicago%29%0A%20%20%20%20%20%20%20%20%2B1%20301%20715%208592%20US%20%28Washington%20DC%29%0A%20%20%20%20%20%20%20%20%2B1%20253%20215%208782%20US%20%28Tacoma%29%0A%20%20%20%20%20%20%20%20%2B1%20346%20248%207799%20US%20%28Houston%29%0A%20%20%20%20%20%20%20%20%2B1%20669%20900%206833%20US%20%28San%20Jose%29%0AMeeting%20ID%3A%20881%202895%206709%0APasscode%3A%20396705%0AFind%20your%20local%20number%3A%20https%3A%2F%2Fus02web.zoom.us%2Fu%2Fkcf5yiYDdK&location=https%3A%2F%2Fus02web.zoom.us%2Fu%2Fkcf5yiYDdK&text=East%20River%20Democratic%20Club%20Monthly%20Meeting" class="addToCalendar">Add to Calendar</a>
-
-<style>
-	.addToCalendar {background-color:#44c767;border-radius:28px;border:1px solid #18ab29;display:inline-block;cursor:pointer;color:#ffffff;font-family:Arial;font-size:16px;padding:16px 31px;text-decoration:none;text-shadow:0px 1px 0px #2f6627;}.addToCalendar:hover {background-color:#5cbf2a;}.addToCalendar:active {position:relative;top:1px;}
-</style>
-<a href="https://outlook.live.com/calendar/0/deeplink/compose?body=MEETING%20AGENDA%0ADistrict%20Leader%20Updates%0ACommunity%20Announcements%0AThe%20Future%20of%20Outdoor%20Dining%20with%20David%20Vega-Barachowitz%2C%20Director%20of%20Urban%20Design%20at%20WXY%20Studio%2C%20Rebecca%20Lamorte%2C%20Former%20CD%205%20Candidate%20%26%20Advocate%2C%20and%20John%20Phillips%2C%20Owner%20of%20the%20Mansion%20Diner%0AERDC%20Club%20Elections%0AAnd%20more%21%0A%0AWe%20look%20forward%20to%20seeing%20everyone%20next%20week%20at%207%20PM%0A%0AJoin%20Zoom%20Meeting%0Ahttps%3A%2F%2Fus02web.zoom.us%2Fj%2F88128956709%3Fpwd%3DWnoreWVRdDN1blh2ZWg1eFEzSVp0dz09%0A%0AMeeting%20ID%3A%20881%202895%206709%0APasscode%3A%20396705%0AOne%20tap%20mobile%0A%2B19292056099%2C%2C88128956709%23%2C%2C%2C%2C%2A396705%23%20US%20%28New%20York%29%0A%2B13126266799%2C%2C88128956709%23%2C%2C%2C%2C%2A396705%23%20US%20%28Chicago%29%0A%0ADial%20by%20your%20location%0A%20%20%20%20%20%20%20%20%2B1%20929%20205%206099%20US%20%28New%20York%29%0A%20%20%20%20%20%20%20%20%2B1%20312%20626%206799%20US%20%28Chicago%29%0A%20%20%20%20%20%20%20%20%2B1%20301%20715%208592%20US%20%28Washington%20DC%29%0A%20%20%20%20%20%20%20%20%2B1%20253%20215%208782%20US%20%28Tacoma%29%0A%20%20%20%20%20%20%20%20%2B1%20346%20248%207799%20US%20%28Houston%29%0A%20%20%20%20%20%20%20%20%2B1%20669%20900%206833%20US%20%28San%20Jose%29%0AMeeting%20ID%3A%20881%202895%206709%0APasscode%3A%20396705%0AFind%20your%20local%20number%3A%20https%3A%2F%2Fus02web.zoom.us%2Fu%2Fkcf5yiYDdK&enddt=2021-12-10T02%3A00%3A00%2B00%3A00&location=https%3A%2F%2Fus02web.zoom.us%2Fu%2Fkcf5yiYDdK&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2021-12-10T00%3A00%3A00%2B00%3A00&subject=East%20River%20Democratic%20Club%20Monthly%20Meeting" class="addToCalendar">Add to Outlook Calendar
-</a>
-
-<style>
-	.addToCalendar {background-color:#44c767;border-radius:28px;border:1px solid #18ab29;display:inline-block;cursor:pointer;color:#ffffff;font-family:Arial;font-size:16px;padding:16px 31px;text-decoration:none;text-shadow:0px 1px 0px #2f6627;}.addToCalendar:hover {background-color:#5cbf2a;}.addToCalendar:active {position:relative;top:1px;}
-</style>
-<a href="https://outlook.office.com/calendar/0/deeplink/compose?body=MEETING%20AGENDA%0ADistrict%20Leader%20Updates%0ACommunity%20Announcements%0AThe%20Future%20of%20Outdoor%20Dining%20with%20David%20Vega-Barachowitz%2C%20Director%20of%20Urban%20Design%20at%20WXY%20Studio%2C%20Rebecca%20Lamorte%2C%20Former%20CD%205%20Candidate%20%26%20Advocate%2C%20and%20John%20Phillips%2C%20Owner%20of%20the%20Mansion%20Diner%0AERDC%20Club%20Elections%0AAnd%20more%21%0A%0AWe%20look%20forward%20to%20seeing%20everyone%20next%20week%20at%207%20PM%0A%0AJoin%20Zoom%20Meeting%0Ahttps%3A%2F%2Fus02web.zoom.us%2Fj%2F88128956709%3Fpwd%3DWnoreWVRdDN1blh2ZWg1eFEzSVp0dz09%0A%0AMeeting%20ID%3A%20881%202895%206709%0APasscode%3A%20396705%0AOne%20tap%20mobile%0A%2B19292056099%2C%2C88128956709%23%2C%2C%2C%2C%2A396705%23%20US%20%28New%20York%29%0A%2B13126266799%2C%2C88128956709%23%2C%2C%2C%2C%2A396705%23%20US%20%28Chicago%29%0A%0ADial%20by%20your%20location%0A%20%20%20%20%20%20%20%20%2B1%20929%20205%206099%20US%20%28New%20York%29%0A%20%20%20%20%20%20%20%20%2B1%20312%20626%206799%20US%20%28Chicago%29%0A%20%20%20%20%20%20%20%20%2B1%20301%20715%208592%20US%20%28Washington%20DC%29%0A%20%20%20%20%20%20%20%20%2B1%20253%20215%208782%20US%20%28Tacoma%29%0A%20%20%20%20%20%20%20%20%2B1%20346%20248%207799%20US%20%28Houston%29%0A%20%20%20%20%20%20%20%20%2B1%20669%20900%206833%20US%20%28San%20Jose%29%0AMeeting%20ID%3A%20881%202895%206709%0APasscode%3A%20396705%0AFind%20your%20local%20number%3A%20https%3A%2F%2Fus02web.zoom.us%2Fu%2Fkcf5yiYDdK&enddt=2021-12-10T02%3A00%3A00%2B00%3A00&location=https%3A%2F%2Fus02web.zoom.us%2Fu%2Fkcf5yiYDdK&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2021-12-10T00%3A00%3A00%2B00%3A00&subject=East%20River%20Democratic%20Club%20Monthly%20Meeting" class="addToCalendar">Add to O365 Calendar
-</a>
-
-<style>
-	.addToCalendar {background-color:#44c767;border-radius:28px;border:1px solid #18ab29;display:inline-block;cursor:pointer;color:#ffffff;font-family:Arial;font-size:16px;padding:16px 31px;text-decoration:none;text-shadow:0px 1px 0px #2f6627;}.addToCalendar:hover {background-color:#5cbf2a;}.addToCalendar:active {position:relative;top:1px;}
-</style>
-<a href="ttps://calendar.yahoo.com/?desc=MEETING%20AGENDA%0ADistrict%20Leader%20Updates%0ACommunity%20Announcements%0AThe%20Future%20of%20Outdoor%20Dining%20with%20David%20Vega-Barachowitz%2C%20Director%20of%20Urban%20Design%20at%20WXY%20Studio%2C%20Rebecca%20Lamorte%2C%20Former%20CD%205%20Candidate%20%26%20Advocate%2C%20and%20John%20Phillips%2C%20Owner%20of%20the%20Mansion%20Diner%0AERDC%20Club%20Elections%0AAnd%20more%21%0A%0AWe%20look%20forward%20to%20seeing%20everyone%20next%20week%20at%207%20PM%0A%0AJoin%20Zoom%20Meeting%0Ahttps%3A%2F%2Fus02web.zoom.us%2Fj%2F88128956709%3Fpwd%3DWnoreWVRdDN1blh2ZWg1eFEzSVp0dz09%0A%0AMeeting%20ID%3A%20881%202895%206709%0APasscode%3A%20396705%0AOne%20tap%20mobile%0A%2B19292056099%2C%2C88128956709%23%2C%2C%2C%2C%2A396705%23%20US%20%28New%20York%29%0A%2B13126266799%2C%2C88128956709%23%2C%2C%2C%2C%2A396705%23%20US%20%28Chicago%29%0A%0ADial%20by%20your%20location%0A%20%20%20%20%20%20%20%20%2B1%20929%20205%206099%20US%20%28New%20York%29%0A%20%20%20%20%20%20%20%20%2B1%20312%20626%206799%20US%20%28Chicago%29%0A%20%20%20%20%20%20%20%20%2B1%20301%20715%208592%20US%20%28Washington%20DC%29%0A%20%20%20%20%20%20%20%20%2B1%20253%20215%208782%20US%20%28Tacoma%29%0A%20%20%20%20%20%20%20%20%2B1%20346%20248%207799%20US%20%28Houston%29%0A%20%20%20%20%20%20%20%20%2B1%20669%20900%206833%20US%20%28San%20Jose%29%0AMeeting%20ID%3A%20881%202895%206709%0APasscode%3A%20396705%0AFind%20your%20local%20number%3A%20https%3A%2F%2Fus02web.zoom.us%2Fu%2Fkcf5yiYDdK&et=20211210T020000Z&in_loc=https%3A%2F%2Fus02web.zoom.us%2Fu%2Fkcf5yiYDdK&st=20211210T000000Z&title=East%20River%20Democratic%20Club%20Monthly%20Meeting&v=60" class="addToCalendar">Add to Yahoo Calendar
-</a>
-
-</h1>
-	<p>December Meeting Agenda:</p>
+			</h1> January Meeting Agenda</h1>
 <p>&nbsp;</p>
 <p>District Leader Updates</p>
 <p>Community Announcements</p>
-<p>The Future of Outdoor Dining with David Vega-Barachowitz, Director of Urban Design at WXY Studio, R</p>
-<p>ebecca Lamorte, Former CD 5 Candidate & Advocate, and John Phillips, Owner of the Mansion Diner</p>
-<p>ERDC Club Elections</p>
+<p>ERDC Club Judicial Delegate Elections</p>
 <p>And more!</p>
 <p>&nbsp;</p>
 <p>Join Zoom Meeting</p>
@@ -128,53 +158,52 @@
 <p><a href="tel:+13126266799,,88128956709#,,,,*396705#">+13126266799,,88128956709#,,,,*396705#</a> US (Chicago)</p>
 <p>&nbsp;</p>
 <p>Dial by your location</p>
-        <p>+1 929 205 6099 US (New York)</p>
-        <p>+1 312 626 6799 US (Chicago)</p>
-        <p>+1 301 715 8592 US (Washington DC)</p>
-        <p>+1 669 900 6833 US (San Jose)</p>
-        <p>+1 253 215 8782 US (Tacoma)</p>
-        <p>+1 346 248 7799 US (Houston)</p>
+<p>+1 929 205 6099 US (New York)</p>
+<p>+1 312 626 6799 US (Chicago)</p>
+<p>+1 301 715 8592 US (Washington DC)</p>
+<p>+1 669 900 6833 US (San Jose)</p>
+<p>+1 253 215 8782 US (Tacoma)</p>
+<p>+1 346 248 7799 US (Houston)</p>
 <p>Meeting ID: 881 2895 6709</p>
 <p>Passcode: 396705</p>
 <p>Find your local number: <a href="https://us02web.zoom.us/u/kcf5yiYDdK">https://us02web.zoom.us/u/kcf5yiYDdK</a></p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<div class="footer">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="footer">
+<div class="spacingbar">
+<img id="myBtn" class="socialimage" alt="Up Button" data-type="image" onclick="topFunction()" src="../Assets/Generic/back-to-top-icon-png-0.jpg">
+<ul class="socialbar">
+<li class="socialimage"><a href="https://www.facebook.com/EastRiverDemocraticClub" target="_blank" data-content="https://www.facebook.com/EastRiverDemocraticClub" data-type="external">
+<img id="FacebookLogo" class="socialimage" alt="Facebook" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/FacebookLogoBlack2.png">
+</a>
+</li>
+<li class="socialimage"><a href="https://www.instagram.com/eastriverdems" target="_blank" data-content="https://www.instagram.com/eastriverdems" data-type="external">
+<img id="InstagramLogo" alt="Instagram" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/InstagramLogoBlack.png">
+</a>
+</li>
+<li class="socialimage"><a href="https://www.twitter.com/eastriverdems" target="_blank" data-content="https://www.twitter.com/eastriverdems" data-type="external">
+<img id="TwitterLogo" alt="Twitter" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/twitterlogoblack.png">
+</a>
+</li>
+</ul>
+<img class="socialimage" alt="Blank for spacing" data-type="image" src="../Assets/Generic/BLANK.png">
+</div>
+<div class="footer">
+<div class="socialbar">
+<h5><a href="../html/Privacy.html">Privacy</a></h5>
+<h5><a href="../html/Legal.html">Legal</a></h5>
+</div>
+<div class="spacingbar">
+<h5 class="invisibletext">.....................................................................</h5>
+<h5>Copyright © 2021 East River Democratic Club</h5>
+<h5>Website designed by <a href="https://www.linkedin.com/in/creganjd/" target="_blank">Christopher Regan</a></h5>
+</div>
+</div>
+</div>
 
-		<div class="spacingbar">
-			<img id="myBtn" class="socialimage" alt="Up Button" data-type="image" onclick="topFunction()" src="../Assets/Generic/back-to-top-icon-png-0.jpg">
-			<ul class="socialbar">
-				<li class="socialimage"><a href="https://www.facebook.com/EastRiverDemocraticClub" target="_blank" data-content="https://www.facebook.com/EastRiverDemocraticClub" data-type="external">
-						<img id="FacebookLogo" class="socialimage" alt="Facebook" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/FacebookLogoBlack2.png">
-					</a>
-				</li>
-				<li class="socialimage"><a href="https://www.instagram.com/eastriverdems" target="_blank" data-content="https://www.instagram.com/eastriverdems" data-type="external">
-						<img id="InstagramLogo" alt="Instagram" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/InstagramLogoBlack.png">
-					</a>
-				</li>
-				<li class="socialimage"><a href="https://www.twitter.com/eastriverdems" target="_blank" data-content="https://www.twitter.com/eastriverdems" data-type="external">
-						<img id="TwitterLogo" alt="Twitter" data-type="image" style="width: 20px; height: 20px; object-fit: cover;" src="../Assets/Generic/twitterlogoblack.png">
-					</a>
-				</li>
-			</ul>
-			<img class="socialimage" alt="Blank for spacing" data-type="image" src="../Assets/Generic/BLANK.png">
-		</div>
 
-		<div class="footer">
-			<div class="socialbar">
-				<h5><a href="../html/Privacy.html">Privacy</a></h5>
-				<h5><a href="../html/Legal.html">Legal</a></h5>
-			</div>
-			<div class="spacingbar">
-				<h5 class="invisibletext">.....................................................................</h5>
-				<h5>Copyright &#169; 2021 East River Democratic Club</h5>
-				<h5>Website designed by <a href="https://www.linkedin.com/in/creganjd/" target="_blank">Christopher Regan</a></h5>
-			</div>
-		</div>
-	</div>
 </body>
-
 </html>
